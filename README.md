@@ -70,14 +70,14 @@ It includes tasks, queues, semaphores, mutexes, and ISR → task communication.
 
 ---
 
-## 🛠️ STM32CubeMX Configuration Steps
+## STM32CubeMX Configuration Steps
 
 This project was configured using **STM32CubeMX** with **FreeRTOS (CMSIS-RTOS v2)**.  
 The following images explain the main configuration steps before code generation.
 
 ---
 
-### 1️⃣ Clock Configuration (High Speed)
+### Clock Configuration (High Speed)
 
 ![Clock Configuration](images/1.PNG)
 
@@ -88,7 +88,7 @@ A correct clock setup ensures accurate task delays, stable communication periphe
 
 ---
 
-### 2️⃣ FreeRTOS Version Selection (CMSIS-RTOS v2)
+### FreeRTOS Version Selection (CMSIS-RTOS v2)
 
 ![FreeRTOS Version Selection](images/2.PNG)
 
@@ -101,7 +101,7 @@ In that case, you must install it from **Software Packs Manager** inside STM32Cu
 
 ---
 
-### 3️⃣ Task, Stack, and RTOS Objects Configuration
+### Task, Stack, and RTOS Objects Configuration
 
 ![RTOS Configuration](images/3.PNG)
 
